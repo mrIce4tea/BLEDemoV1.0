@@ -1,0 +1,556 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/container_border"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtHomeDateAndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/indentText"
+                    android:layout_marginTop="@dimen/indentText"
+                    android:text="@string/fullstop"
+                    android:textColor="@color/blackColour" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/spacer" />
+
+                <TextView
+                    android:id="@+id/txtHomeBatteryInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/indentText"
+                    android:layout_marginTop="@dimen/indentText"
+                    android:text="@string/fullstop"
+                    android:textColor="@color/blackColour" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/indentText"
+                android:gravity="center"
+                android:text="@string/blueThermPro"
+                android:textColor="@color/blackColour"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearSensorOneName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtSensorOneName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="right|center|bottom"
+                            android:lines="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="sensor one name"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/largeText" />
+
+                        <TextView
+                            android:id="@+id/txtSensorOneNameArrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom|left|center"
+                            android:hint=" >"
+                            android:textSize="@dimen/largeText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtSensorOneValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="right|center"
+                            android:text="@string/blankSensorValue"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/twoInputSize"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHomeViewSensorOneUnitDisplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:text="@string/dash"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/twoInputSizeDegrees"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearSensorOneMinMax"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtHomeMaxS1Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:maxLines="1"
+                        android:text="@string/maxTemp"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeMaxS1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtHomeMinS1Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:text="@string/minTemp"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeMinS1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearSensorOneHighLow"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtSensorOneHighLimitText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:maxLines="1"
+                        android:text="@string/highAlarmHomeView"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeHighAlarmS1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtSensorOneLowLimitText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:text="@string/lowAlarmHomeView"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeLowAlarmS1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearSensorOneSequenceAlarm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtHomeSensorOneNextAlarm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom|center"
+                            android:text="@string/nextAlarm"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/mediumText" />
+
+                        <TextView
+                            android:id="@+id/txtHomeSensorOneNextAlarmArrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom|left|center"
+                            android:hint=" >"
+                            android:textSize="@dimen/mediumText" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtHomeViewNextSensorOneAlarmName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:maxLines="2"
+                        android:text="@string/dash"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:text="@string/spacer"
+                        android:textSize="@dimen/largeText" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/spacer"
+                        android:textSize="@dimen/mediumText" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearSensorTwoDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/homeview_middle_line"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtSensorTwoName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="bottom|right|center"
+                            android:lines="1"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:text="sensor two name"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/largeText" />
+
+                        <TextView
+                            android:id="@+id/txtSensorTwoNameArrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom|left|center"
+                            android:hint=" >"
+                            android:textSize="@dimen/largeText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="3"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtSensorTwoValue"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="3"
+                            android:gravity="right|center"
+                            android:text="@string/blankSensorValue"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/twoInputSize"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txtHomeViewSensorTwoUnitDisplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="left|center"
+                            android:text="@string/dash"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/twoInputSizeDegrees"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearSensorTwoMaxMin"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:text="@string/maxTemp"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeMaxS2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:text="@string/minTemp"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeMinS2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearSensorTwoHighLow"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/txtSensorTwoHighLimitText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:text="@string/highAlarmHomeView"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeHighAlarmS2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtSensorTwoLowLimitText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="bottom|center"
+                        android:text="@string/lowAlarmHomeView"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/txtHomeLowAlarmS2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:text="@string/blankSensorValue"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/largeText"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearSensorTwoSequenceAlarms"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/txtHomeSensorTwoNextAlarm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom|center"
+                            android:text="@string/nextAlarm"
+                            android:textColor="@color/blackColour"
+                            android:textSize="@dimen/mediumText" />
+
+                        <TextView
+                            android:id="@+id/txtHomeSensorTwoNextAlarmArrow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="bottom|left|center"
+                            android:hint=" >"
+                            android:textSize="@dimen/mediumText" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txtHomeViewNextSensorTwoAlarmName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:maxLines="2"
+                        android:text="@string/dash"
+                        android:textColor="@color/blackColour"
+                        android:textSize="@dimen/mediumText"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/spacer"
+                        android:textSize="@dimen/mediumText" />
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/spacer"
+                        android:textSize="@dimen/largeText" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

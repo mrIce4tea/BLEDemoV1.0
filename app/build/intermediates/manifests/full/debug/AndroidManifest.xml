@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.bluetooth.bledemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iclauncherweb"
+        android:label="@string/app_name"
+        android:logo="@drawable/iclauncherweb"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.bluetooth.bledemo.ScanningActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.bluetooth.bledemo.PeripheralActivity"
+            android:label="Peripheral"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="org.bluetooth.bledemo.CoreClass"
+            android:label="Core Activity"
+            android:parentActivityName="org.bluetooth.bledemo.ScanningActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTVITY"
+                android:value="org.bluetooth.bledemo.ScanningActivity" />
+        </activity>
+
+        <service
+            android:name="org.bluetooth.bledemo.BleWrapper"
+            android:enabled="true"
+            android:exported="true"
+            android:label="Service class"
+            android:permission="@string/enabled" />
+    </application>
+
+</manifest>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="@drawable/container_border"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/indentText"
+                android:layout_marginRight="@dimen/indentText"
+                android:layout_marginTop="@dimen/indentText" >
+
+                <TextView
+                    android:id="@+id/txtContainerDateAndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="09/05/13 12:24:02 PM"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/smallText" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/spacer" />
+
+                <TextView
+                    android:id="@+id/txtContainerBatteryLevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Battery: Charging"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/smallText" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <RadioGroup
+                    android:id="@+id/myRadioGroup"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="flipBtn"
+                        android:id="@+id/flipBtn" />
+
+                    <RadioButton
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C to F"
+                        android:id="@+id/radioButtonCF"
+                        android:layout_gravity="center"
+                        android:checked="false" />
+
+                    <RadioButton
+
+                        android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="F to C"
+                        android:id="@+id/radioButtonFC"
+                        android:layout_gravity="center"
+                        android:checked="false" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/indentText"
+                android:layout_weight="2" >
+
+
+                <TableRow
+                    android:background="@drawable/pencilface"
+                    android:id="@+id/tableRow2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/spacer" />
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutContainerMain"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" >
+
+
+                        <TableRow
+                            android:id="@+id/tableRow5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent" >
+
+                                <TextView
+                                    android:id="@+id/txtConSensorOneName"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/indentText"
+                                    android:layout_marginRight="@dimen/indentText"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="TextView"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/containerViewTextSize" />
+
+                                <TextView
+                                    android:id="@+id/txtConSensorOneValue"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/indentText"
+                                    android:layout_marginRight="@dimen/indentText"
+                                    android:gravity="center"
+                                    android:maxLines="1"
+                                    android:text="TextView"
+                                    android:textColor="#000000"
+                                    android:textSize="@dimen/containerViewValueSize"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </TableRow>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/txtAlarmHomeHighValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/spacer" />
+
+                </TableRow>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

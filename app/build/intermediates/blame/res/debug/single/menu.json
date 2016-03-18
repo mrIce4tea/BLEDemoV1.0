@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\scanning.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\menu\\scanning.xml"
+    },
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\peripheral.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\menu\\peripheral.xml"
+    }
+]

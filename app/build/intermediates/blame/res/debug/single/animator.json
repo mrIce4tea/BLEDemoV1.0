@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\animator\\card_flip_left_out.xml"
+    },
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_left.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\animator\\slide_in_left.xml"
+    },
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_in.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\animator\\card_flip_right_in.xml"
+    },
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_in.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\animator\\card_flip_left_in.xml"
+    },
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\animator\\card_flip_right_out.xml"
+    },
+    {
+        "merged": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_right.xml",
+        "source": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\animator\\slide_in_right.xml"
+    }
+]

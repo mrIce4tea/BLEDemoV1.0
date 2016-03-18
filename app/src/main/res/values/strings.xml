@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlueTherm Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="spacer"> </string>
+    <string name="buttonStartRecording">Start</string>
+    <string name="buttonConnectProbe">Connect</string>
+    <string name="buttonDisconnectProbe">Disconnect</string>
+    <string name="blankSensorValue">---.-</string>
+    <string name="connectingToTheBlueTherm">\nConnecting to the BlueTherm\n</string>
+    <string name="cancelButton">\nCancel\n</string>
+    <string name="tryAgain">\nTry again\n</string>
+    <string name="bluetoothSettings">\nBluetooth settings\n</string>
+    <string name="failedConnectDialog">\nFailed to connect to a BlueTherm probe.  The probe is either out of range, or pairing failed.\n</string>
+    <string name="failOkay">\nok\n</string>
+    <string name="selectProbe">Select BlueTherm</string>
+    <string name="blueThermLiteButton">BlueTherm Lite</string>
+    <string name="add">Add</string>
+    <string name="savedProfiles">Saved profiles</string>
+    <string name="save">Save</string>
+    <string name="name">Name:</string>
+    <string name="selectThisProfile">Select this profile:</string>
+    <string name="recordingInterval">Recording interval:</string>
+    <string name="notes">Notes:</string>
+    <string name="defaultTime">00:00:15</string>
+
+    <string name="TempText"></string>
+    <string name="action_flip">Flip</string>
+    <string name="action_photo">Photo</string>
+    <string name="action_info">Info</string>
+
+
+    <string-array name="jazz_artist_names">
+        <item>Brad Mehldau</item>
+        <item>Joshua Redman</item>
+        <item>Chick Corea</item>
+        <item>Kurt Rosenwinkel</item>
+        <item>Miles Davis</item>
+        <item>Wayne Shorter</item>
+        <item>Michael Brecker</item>
+        <item>Herbie Hancock</item>
+        <item>Joe Zawinul</item>
+        <item>Brian Blade</item>
+        <item>Jeff Ballard</item>
+        <item>Larry Grenadier</item>
+        <item>Keith Jarrett</item>
+        <item>McCoy Tyner</item>
+        <item>Stephon Harris</item>
+        <item>Mark Turner</item>
+    </string-array>
+
+
+    <string name="dash">-</string>
+    <string name="sensorOne">Sensor one:</string>
+    <string name="alarms">Alarms</string>
+    <string name="edit">EDIT</string>
+    <string name="sensorTwo">Sensor two:</string>
+    <string name="profileSelected">Profile selected</string>
+    <string name="pressToSelectThisProfile">Press to select profile</string>
+    <string name="sensorTwoOn">Sensor two is on</string>
+    <string name="pressToEnableSensorTwo">Press to enable sensor two</string>
+    <string name="enableSensorTwo">Enable sensor two:</string>
+    <string name="clickToSelectThisProfile">Click to select this profile</string>
+    <string name="thisProfileIsSelected">This profile is selected</string>
+    <string name="alarmTemp">Alarm temp:</string>
+    <string name="highAlarm">High Alarm</string>
+    <string name="lowAlarm">Low Alarm</string>
+    <string name="tone">Tone</string>
+    <string name="defaultString">default</string>
+    <string name="alarmName">alarm name</string>
+    <string name="alarmMessage">Alarm message:</string>
+    <string name="sensorOneAlarms">sensor one</string>
+    <string name="sensorTwoAlarms">sensor two</string>
+    <string name="sequenceAlarms">sequence</string>
+    <string name="highLowAlarms">high / low</string>
+    <string name="selectABlueTherm">Select a BlueTherm</string>
+    <string name="fullstops">. . . . .</string>
+    <string name="degreesC">°C</string>
+    <string name="degreesF">°F</string>
+    <string name="one">1</string>
+    <string name="five">5</string>
+    <string name="ten">10</string>
+    <string name="thirty">30</string>
+    <string name="blueThermConnect">BlueTherm connect:</string>
+    <string name="units">Units:</string>
+    <string name="updateRate">Update rate: (s)</string>
+    <string name="minMax">Min/Max:</string>
+    <string name="serialNumber">Serial number:</string>
+    <string name="calibrated">Calibrated:</string>
+    <string name="model">Model:</string>
+    <string name="batteryLevel">Battery level:</string>
+    <string name="advanceInfo">Advanced info</string>
+    <string name="pressToConnect">Press to connect</string>
+    <string name="min">Min</string>
+    <string name="off">Off</string>
+    <string name="reset">reset</string>
+    <string name="on">On</string>
+    <string name="maxTemp">Max Temp</string>
+    <string name="minTemp">Min Temp</string>
+    <string name="highAlarmHomeView">High Alarm</string>
+    <string name="lowAlarmHomeView">Low Alarm</string>
+    <string name="nextAlarm">Next Alarm</string>
+    <string name="blueThermPro">BlueTherm LE</string>
+    <string name="notConnected">not connected</string>
+    <string name="alarmAdd">   +   </string>
+    <string name="arrow">></string>
+    <string name="temperature">Temperature:</string>
+    <string name="enabled">Enabled</string>
+    <string name="saveLowercase">SAVE</string>
+    <string name="enterName">enter name</string>
+    <string name="loadThisProfile">Load this profile</string>
+    <string name="delete">delete</string>
+    <string name="currentTable">Current Table</string>
+    <string name="savedData">Saved Data</string>
+    <string name="emailData">Email Data</string>
+    <string name="updateOn">Update: ON</string>
+    <string name="updateOff">Update: OFF</string>
+    <string name="hash">#</string>
+    <string name="readingsOn">Readings on</string>
+    <string name="displayUpdateRate">Display update rate: (s)</string>
+    <string name="recordInterval">Record interval:</string>
+    <string name="enterTableName">Enter table name.</string>
+    <string name="saveCurrentSettings">Save current settings</string>
+    <string name="selectAProfile">Select a Profile</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="editAlarm">Edit alarm</string>
+    <string name="editNextAlarm">Edit next alarm</string>
+    <string name="viewAllAlarms">View all alarms</string>
+    <string name="alarmUp">Alarm up</string>
+    <string name="alarmDown">Alarm down</string>
+    <string name="enabledSemicolon">Enabled:</string>
+    <string name="alarmsPaused">ALARMS PAUSED</string>
+    <string name="refresh">1:1</string>
+    <string name="fontSize">Temperature font size:</string>
+    <string name="fullstop">.</string>
+</resources>

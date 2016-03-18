@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 51,
+                    "endOffset": 102
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 51,
+                        "endOffset": 431
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 107,
+                    "endColumn": 45,
+                    "endOffset": 148
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 45,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 153,
+                    "endColumn": 38,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 300,
+                        "endColumn": 38,
+                        "endOffset": 334
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 192,
+                    "endColumn": 57,
+                    "endOffset": 245
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 696,
+                        "endColumn": 57,
+                        "endOffset": 749
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 250,
+                    "endColumn": 55,
+                    "endOffset": 301
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 755,
+                        "endColumn": 55,
+                        "endOffset": 806
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 306,
+                    "endColumn": 42,
+                    "endOffset": 344
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 42,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 349,
+                    "endColumn": 52,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 812,
+                        "endColumn": 52,
+                        "endOffset": 860
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 41,
+                    "endOffset": 439
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 482,
+                        "endColumn": 41,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 444,
+                    "endColumn": 43,
+                    "endOffset": 483
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 437,
+                        "endColumn": 43,
+                        "endOffset": 476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 488,
+                    "endColumn": 54,
+                    "endOffset": 538
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 979,
+                        "endColumn": 54,
+                        "endOffset": 1029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 543,
+                    "endColumn": 53,
+                    "endOffset": 592
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 53,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 597,
+                    "endColumn": 54,
+                    "endOffset": 647
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 579,
+                        "endColumn": 54,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 652,
+                    "endColumn": 52,
+                    "endOffset": 700
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endColumn": 52,
+                        "endOffset": 573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 705,
+                    "endColumn": 43,
+                    "endOffset": 744
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endColumn": 43,
+                        "endOffset": 294
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 749,
+                    "endColumn": 49,
+                    "endOffset": 794
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 872,
+                        "endColumn": 49,
+                        "endOffset": 917
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 799,
+                    "endColumn": 54,
+                    "endOffset": 849
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 923,
+                        "endColumn": 54,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 854,
+                    "endColumn": 46,
+                    "endOffset": 896
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 207,
+                        "endColumn": 46,
+                        "endOffset": 249
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 901,
+                    "endColumn": 52,
+                    "endOffset": 949
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 52,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 954,
+                    "endColumn": 47,
+                    "endOffset": 997
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 47,
+                        "endOffset": 201
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1002,
+                    "endColumn": 58,
+                    "endOffset": 1056
+                },
+                "from": {
+                    "file": "D:\\Users\\jamie.meachim\\Desktop\\BLEDemoV1.0\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 200,
+                        "endColumn": 58,
+                        "endOffset": 254
+                    }
+                }
+            }
+        ]
+    }
+]

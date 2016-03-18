@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="1_gradle-wrapper">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/MPAndroidChart-2.2.3/gradle/wrapper/gradle-wrapper.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

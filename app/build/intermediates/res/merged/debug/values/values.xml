@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jazz_artist_names">
+        <item>Brad Mehldau</item>
+        <item>Joshua Redman</item>
+        <item>Chick Corea</item>
+        <item>Kurt Rosenwinkel</item>
+        <item>Miles Davis</item>
+        <item>Wayne Shorter</item>
+        <item>Michael Brecker</item>
+        <item>Herbie Hancock</item>
+        <item>Joe Zawinul</item>
+        <item>Brian Blade</item>
+        <item>Jeff Ballard</item>
+        <item>Larry Grenadier</item>
+        <item>Keith Jarrett</item>
+        <item>McCoy Tyner</item>
+        <item>Stephon Harris</item>
+        <item>Mark Turner</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="buttonBorderWidth">1dp</dimen>
+    <dimen name="buttonHomeTextSize">20sp</dimen>
+    <dimen name="containerBlueBorderCorners">10dp</dimen>
+    <dimen name="containerViewTextSize">22sp</dimen>
+    <dimen name="containerViewValueSize">30sp</dimen>
+    <dimen name="dialogbuttonsmallText">16sp</dimen>
+    <dimen name="graphLineWidth">2dp</dimen>
+    <dimen name="graphPointSize">15dp</dimen>
+    <dimen name="indentText">8dp</dimen>
+    <dimen name="largeText">22sp</dimen>
+    <dimen name="listTableHeight">45dp</dimen>
+    <dimen name="listTableHeightLarger">55dp</dimen>
+    <dimen name="listTableHeightSpacer">30dp</dimen>
+    <dimen name="mediumText">18sp</dimen>
+    <dimen name="progressBar">140dp</dimen>
+    <dimen name="smallText">14sp</dimen>
+    <dimen name="switchMargin">7dp</dimen>
+    <dimen name="tabBarHeight">50dp</dimen>
+    <dimen name="tableRowSeparater">2dp</dimen>
+    <dimen name="tabpadding">5dp</dimen>
+    <dimen name="titleBarTextSize">28sp</dimen>
+    <dimen name="toolBarButtonText">15sp</dimen>
+    <dimen name="toolBarHeight">70dp</dimen>
+    <dimen name="toolBarTitle">25sp</dimen>
+    <dimen name="twoInputSize">85sp</dimen>
+    <dimen name="twoInputSizeDegrees">40sp</dimen>
+    <dimen name="viewIndent">15dp</dimen>
+    <item name="action_flip" type="id"/>
+    <item name="action_next" type="id"/>
+    <string name="TempText"/>
+    <string name="action_flip">Flip</string>
+    <string name="action_info">Info</string>
+    <string name="action_photo">Photo</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="advanceInfo">Advanced info</string>
+    <string name="alarmAdd">   +   </string>
+    <string name="alarmDown">Alarm down</string>
+    <string name="alarmMessage">Alarm message:</string>
+    <string name="alarmName">alarm name</string>
+    <string name="alarmTemp">Alarm temp:</string>
+    <string name="alarmUp">Alarm up</string>
+    <string name="alarms">Alarms</string>
+    <string name="alarmsPaused">ALARMS PAUSED</string>
+    <string name="app_name">BlueTherm Pro</string>
+    <string name="arrow">></string>
+    <string name="batteryLevel">Battery level:</string>
+    <string name="blankSensorValue">---.-</string>
+    <string name="blueThermConnect">BlueTherm connect:</string>
+    <string name="blueThermLiteButton">BlueTherm Lite</string>
+    <string name="blueThermPro">BlueTherm LE</string>
+    <string name="bluetoothSettings">\nBluetooth settings\n</string>
+    <string name="buttonConnectProbe">Connect</string>
+    <string name="buttonDisconnectProbe">Disconnect</string>
+    <string name="buttonStartRecording">Start</string>
+    <string name="calibrated">Calibrated:</string>
+    <string name="cancelButton">\nCancel\n</string>
+    <string name="clickToSelectThisProfile">Click to select this profile</string>
+    <string name="connectingToTheBlueTherm">\nConnecting to the BlueTherm\n</string>
+    <string name="currentTable">Current Table</string>
+    <string name="dash">-</string>
+    <string name="defaultString">default</string>
+    <string name="defaultTime">00:00:15</string>
+    <string name="degreesC">°C</string>
+    <string name="degreesF">°F</string>
+    <string name="delete">delete</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="displayUpdateRate">Display update rate: (s)</string>
+    <string name="edit">EDIT</string>
+    <string name="editAlarm">Edit alarm</string>
+    <string name="editNextAlarm">Edit next alarm</string>
+    <string name="emailData">Email Data</string>
+    <string name="enableSensorTwo">Enable sensor two:</string>
+    <string name="enabled">Enabled</string>
+    <string name="enabledSemicolon">Enabled:</string>
+    <string name="enterName">enter name</string>
+    <string name="enterTableName">Enter table name.</string>
+    <string name="failOkay">\nok\n</string>
+    <string name="failedConnectDialog">\nFailed to connect to a BlueTherm probe.  The probe is either out of range, or pairing failed.\n</string>
+    <string name="five">5</string>
+    <string name="fontSize">Temperature font size:</string>
+    <string name="fullstop">.</string>
+    <string name="fullstops">. . . . .</string>
+    <string name="hash">#</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="highAlarm">High Alarm</string>
+    <string name="highAlarmHomeView">High Alarm</string>
+    <string name="highLowAlarms">high / low</string>
+    <string name="loadThisProfile">Load this profile</string>
+    <string name="lowAlarm">Low Alarm</string>
+    <string name="lowAlarmHomeView">Low Alarm</string>
+    <string name="maxTemp">Max Temp</string>
+    <string name="min">Min</string>
+    <string name="minMax">Min/Max:</string>
+    <string name="minTemp">Min Temp</string>
+    <string name="model">Model:</string>
+    <string name="name">Name:</string>
+    <string name="nextAlarm">Next Alarm</string>
+    <string name="notConnected">not connected</string>
+    <string name="notes">Notes:</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="one">1</string>
+    <string name="pressToConnect">Press to connect</string>
+    <string name="pressToEnableSensorTwo">Press to enable sensor two</string>
+    <string name="pressToSelectThisProfile">Press to select profile</string>
+    <string name="profileSelected">Profile selected</string>
+    <string name="readingsOn">Readings on</string>
+    <string name="recordInterval">Record interval:</string>
+    <string name="recordingInterval">Recording interval:</string>
+    <string name="refresh">1:1</string>
+    <string name="reset">reset</string>
+    <string name="save">Save</string>
+    <string name="saveCurrentSettings">Save current settings</string>
+    <string name="saveLowercase">SAVE</string>
+    <string name="savedData">Saved Data</string>
+    <string name="savedProfiles">Saved profiles</string>
+    <string name="selectABlueTherm">Select a BlueTherm</string>
+    <string name="selectAProfile">Select a Profile</string>
+    <string name="selectProbe">Select BlueTherm</string>
+    <string name="selectThisProfile">Select this profile:</string>
+    <string name="sensorOne">Sensor one:</string>
+    <string name="sensorOneAlarms">sensor one</string>
+    <string name="sensorTwo">Sensor two:</string>
+    <string name="sensorTwoAlarms">sensor two</string>
+    <string name="sensorTwoOn">Sensor two is on</string>
+    <string name="sequenceAlarms">sequence</string>
+    <string name="serialNumber">Serial number:</string>
+    <string name="spacer"> </string>
+    <string name="temperature">Temperature:</string>
+    <string name="ten">10</string>
+    <string name="thirty">30</string>
+    <string name="thisProfileIsSelected">This profile is selected</string>
+    <string name="tone">Tone</string>
+    <string name="tryAgain">\nTry again\n</string>
+    <string name="units">Units:</string>
+    <string name="updateOff">Update: OFF</string>
+    <string name="updateOn">Update: ON</string>
+    <string name="updateRate">Update rate: (s)</string>
+    <string name="viewAllAlarms">View all alarms</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

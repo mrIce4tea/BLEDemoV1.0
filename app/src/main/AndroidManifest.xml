@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.bluetooth.bledemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="23"/>
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iclauncherweb"
+        android:label="@string/app_name"
+        android:logo="@drawable/iclauncherweb"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.bluetooth.bledemo.ScanningActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.bluetooth.bledemo.PeripheralActivity"
+            android:label="Peripheral"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity android:name=".CoreClass"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:parentActivityName=".ScanningActivity"
+            android:label="Core Activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTVITY"
+                android:value="org.bluetooth.bledemo.ScanningActivity"
+                />
+        </activity>
+        <service android:name=".BleWrapper"
+            android:label="Service class" android:enabled="true" android:exported="true"
+            android:permission="@string/enabled" />
+    </application>
+
+
+
+</manifest>

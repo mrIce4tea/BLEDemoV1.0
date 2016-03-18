@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\libs\mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-2-1-6_c0b67096b22e4cb5d8983235116301533326570f.jar" />
+    </item>
+    <item
+        jar="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\build\intermediates\pre-dexed\debug\android-support-v4_669fe6538157258bc76e00caab96f5eec3f2e0df.jar" />
+    </item>
+    <item
+        jar="D:\Users\jamie.meachim\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Users\jamie.meachim\Desktop\AndroidStudioProjects\BLEDemo\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-f994995919ca540a01174e360dac2550a96b7f36.jar" />
+    </item>
+    <item
+        jar="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\build\intermediates\pre-dexed\debug\android-support-v4_669fe6538157258bc76e00caab96f5eec3f2e0df.jar" />
+    </item>
+    <item
+        jar="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\libs\gradle-wrapper.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9442e8b86dcd5e8ba5c405b0fc9b5d7b1daba8ce">
+        <dex dex="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\build\intermediates\pre-dexed\debug\gradle-wrapper_1ac3665ae04a7e4a01db51fb6dcaf05d133e6444.jar" />
+    </item>
+    <item
+        jar="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\libs\gradle-wrapper.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9442e8b86dcd5e8ba5c405b0fc9b5d7b1daba8ce">
+        <dex dex="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\build\intermediates\pre-dexed\debug\gradle-wrapper_1ac3665ae04a7e4a01db51fb6dcaf05d133e6444.jar" />
+    </item>
+    <item
+        jar="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\libs\mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="D:\Users\jamie.meachim\Desktop\BLEDemoV1.0\app\build\intermediates\pre-dexed\debug\mpandroidchartlibrary-2-1-6_c0b67096b22e4cb5d8983235116301533326570f.jar" />
+    </item>
+
+</items>

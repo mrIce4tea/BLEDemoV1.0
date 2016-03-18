@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/button_style_dialog_background"
+     >
+
+    <TextView
+        android:id="@+id/txtspacerTwobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer" />
+
+    <TextView
+        android:id="@+id/txtTittleMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/indentText"
+        android:layout_marginRight="@dimen/indentText"
+        android:gravity="center"
+        android:text="text"
+        android:textColor="@color/blackColour"
+        android:textSize="@dimen/smallText"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTwoButtonSpacer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer" />
+
+    <TextView
+        android:id="@+id/txtConnectingMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/indentText"
+        android:layout_marginRight="@dimen/indentText"
+        android:gravity="center"
+        android:text="text"
+        android:textColor="@color/blackColour"
+        android:textSize="@dimen/smallText" />
+
+    <TextView
+        android:id="@+id/txtTwoButtonDialogSpacer10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer" />
+
+    <EditText
+        android:id="@+id/editTextDialogUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/largeText"
+        android:layout_marginLeft="@dimen/indentText"
+        android:layout_marginRight="@dimen/indentText"
+        android:background="@drawable/button_style_dialog_background"
+        android:ellipsize="end"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/enterTableName"
+        android:imeOptions="actionDone"
+        android:lines="1"
+        android:maxLength="28"
+        android:maxLines="1"
+        
+        android:singleLine="true"
+        android:textSize="@dimen/smallText" />
+
+    <TextView
+        android:id="@+id/txtTwoButtonDialogSpacer20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer" />
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/oneButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_style_two_button_dialog_selector_left"
+                android:text="button"
+                android:textColor="@color/mainNormalBlueColour"
+                android:textSize="@dimen/smallText" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowTwoButtonTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/twoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_style_two_button_dialog_selector_right"
+                android:text="button"
+                android:textColor="@color/mainNormalBlueColour"
+                android:textSize="@dimen/smallText" />
+
+        </TableRow>
+    </TableRow>
+
+</LinearLayout>

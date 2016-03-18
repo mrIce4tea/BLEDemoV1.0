@@ -1,0 +1,55 @@
+TASK org.bluetooth.bledemo id=3247
+  ACTIVITY org.bluetooth.bledemo/.ScanningActivity 896dbc1 pid=15218
+    Local Activity 26902ea State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 234mcc?mnc en_GB ldltr sw360dp w360dp h568dp 480dpi nrml port finger -keyb/v/h -nav/h s.5}
+      mLoadersStarted=true
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@952681a
+        mContainer=android.app.Activity$HostCallbacks@952681a
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=2012666286 (57466 ms ago)
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{dbc6d28 V.E...... R....... 0,0-1080,1776}
+        com.android.internal.widget.ActionBarOverlayLayout{76cda41 V.ED..... ........ 0,0-1080,1776 #10203ae android:id/decor_content_parent}
+          android.widget.FrameLayout{31eebe6 V.E...... ........ 0,216-1080,1776 #1020002 android:id/content}
+            android.widget.ListView{9eeb527 VFED.VC.. .F...... 0,0-1080,1560 #102000a android:id/list}
+              android.widget.TableLayout{8ff33d4 V.E...... ........ 0,0-1080,146}
+                android.widget.TableRow{6bd97d V.E...... ........ 0,0-1080,97 #7f0c0038 app:id/tableRow1}
+                  android.widget.TextView{ddde072 V.ED..... ........ 0,0-208,97 #7f0c0045 app:id/labelForName}
+                  android.widget.TextView{c077cc3 V.ED..... ........ 244,0-919,97 #7f0c0046 app:id/deviceName}
+                  android.widget.TextView{905b940 V.ED..... ........ 955,0-1080,73 #7f0c0047 app:id/labelForRSSI}
+                android.widget.TableRow{d619079 V.E...... ........ 0,97-1080,146 #7f0c003b app:id/tableRow2}
+                  android.widget.TextView{32591be V.ED..... ........ 67,0-208,49 #7f0c0048 app:id/labelForAddress}
+                  android.widget.TextView{5b221f V.ED..... ........ 244,0-919,49 #7f0c0049 app:id/deviceAddress}
+                  android.widget.TextView{e2d296c V.ED..... ........ 968,0-1067,49 #7f0c004a app:id/deviceRssi}
+          com.android.internal.widget.ActionBarContainer{161bb35 V.ED..... ........ 0,72-1080,216 #10203af android:id/action_bar_container}
+            com.android.internal.widget.ActionBarView{da50bca V.E...... ........ 0,0-1080,144 #10203b0 android:id/action_bar}
+              android.widget.LinearLayout{119c13b V.....C.. ........ 25,0-526,144}
+                com.android.internal.widget.ActionBarView$HomeView{f797058 V.E...... ........ 0,0-120,144}
+                  android.widget.ImageView{2ffd5b1 G.ED..... ......I. 0,0-0,0 #1020047 android:id/up}
+                  android.widget.ImageView{1f01a96 V.ED..... ........ 12,24-108,120 #102002c android:id/home}
+                android.widget.LinearLayout{1593617 V.E...... ........ 120,35-501,108}
+                  android.widget.TextView{e413a04 V.ED..... ........ 0,0-357,73 #10202e6 android:id/action_bar_title}
+                  android.widget.TextView{48b1bed G.ED..... ......I. 0,0-0,0 #10202e7 android:id/action_bar_subtitle}
+              android.widget.ActionMenuView{80b4a22 V.ED..... ........ 742,0-1080,144}
+                com.android.internal.view.menu.ActionMenuItemView{5b11cb3 VFED..CL. ........ 0,0-168,144 #7f0c008c app:id/scanning_indicator}
+                com.android.internal.view.menu.ActionMenuItemView{899f270 VFED..CL. ........ 170,0-338,144 #7f0c008a app:id/scanning_start}
+            com.android.internal.widget.ActionBarContextView{40a89e9 G.E...... ......ID 0,0-0,0 #10203b1 android:id/action_context_bar}
+          com.android.internal.widget.ActionBarContainer{1b7e66e G.ED..... ......ID 0,0-0,0 #10203b2 android:id/split_action_bar}
+    Looper (main, tid 1) {683c59c}
+      Message 0: { when=+1s478ms callback=org.bluetooth.bledemo.BleWrapper$2 target=android.os.Handler }
+      (Total messages: 1, polling=false, quitting=false)
